@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server/server.js"
   },
   "repository": {
     "type": "git",
@@ -19,9 +20,13 @@
   "homepage": "https://github.com/selenacarlson/giphy-api#readme",
   "dependencies": {
     "angular-utils-pagination": "^0.11.1",
+    "axios": "^0.18.0",
     "body-parser": "^1.18.2",
     "bootstrap": "^4.0.0",
     "express": "^4.16.2",
     "pg": "^7.4.1"
+  },
+  "devDependencies": {
+    "dotenv": "^5.0.1"
   }
 }
